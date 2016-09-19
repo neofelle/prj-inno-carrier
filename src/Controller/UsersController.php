@@ -44,7 +44,7 @@ class UsersController extends AppController
             //$this->redirect(['controller' => 'customer', 'action' => 'register']);
         }
 
-        $this->Auth->allow();
+        //$this->Auth->allow();
     }
 
     /**

@@ -31,6 +31,7 @@ class MainController extends AppController
         $this->set('nav_selected', $nav_selected);
         $this->set('website_title', 'Innovative Carriers');
         $this->set('page_title', 'Home');
+        $this->Auth->allow();
     }    
     
     /**

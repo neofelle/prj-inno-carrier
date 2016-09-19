@@ -1,3 +1,3 @@
 <?php include('header.ctp'); ?>
-<?= $this->fetch('content') ?>
+<?php //echo $this->fetch('content'); ?>
 <?php include('footer.ctp'); ?>
