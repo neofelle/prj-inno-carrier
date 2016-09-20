@@ -43,5 +43,55 @@ class PagesController extends AppController
     {
         parent::afterFilter($event);
     }
+
+    /**
+     * Signup method
+     * @return void
+     */
+
+    public function signup()
+    {   
+        $this->viewBuilder()->layout('main_no_banner');        
+    }
+
+    /**
+     * Login method
+     * @return void
+     */
+
+    public function login()
+    {   
+        $this->viewBuilder()->layout('main_no_banner');        
+    }
+
+    /**
+     * ltl method
+     * @return void
+     */
+
+    public function ltl()
+    {   
+        $this->viewBuilder()->layout('main_no_banner');        
+    }
+
+    /**
+     * Truckload method
+     * @return void
+     */
+
+    public function truckload()
+    {   
+        $this->viewBuilder()->layout('main_no_banner');        
+    }
+
+    /**
+     * Rail and Intermodal method
+     * @return void
+     */
+
+    public function rail_and_intermodal()
+    {   
+        $this->viewBuilder()->layout('main_no_banner');        
+    }
     
 }
