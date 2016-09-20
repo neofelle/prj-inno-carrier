@@ -93,5 +93,15 @@ class PagesController extends AppController
     {   
         $this->viewBuilder()->layout('main_no_banner');        
     }
+
+    /**
+     * Resources method
+     * @return void
+     */
+
+    public function resources()
+    {   
+        $this->viewBuilder()->layout('main_no_banner');        
+    }
     
 }

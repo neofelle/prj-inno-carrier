@@ -98,6 +98,11 @@ Router::scope('/', function ($routes) {
     Router::connect(
         '/rail_and_intermodal',
         array('controller' => 'Pages', 'action' => 'rail_and_intermodal')
+    );
+
+    Router::connect(
+        '/resources',
+        array('controller' => 'Pages', 'action' => 'resources')
     ); 
     
 /**
